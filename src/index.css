@@ -1,0 +1,482 @@
+/* Import fonts */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  color: #000;
+}
+
+/* Navbar */
+.navbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  gap: 12px;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
+}
+
+ .hero-logo {
+  height: 100px;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 0 5px rgba(0,0,0,0.2));
+}
+
+.footer {
+  background-color: #f4f4f4;  /* light grey, not white */
+  color: #333;                /* dark grey for readability */
+  text-align: center;
+  padding: 2rem 1rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footer-brand img {
+  height: 50px;
+  margin-bottom: 0.5rem;
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.1));
+}
+
+.footer p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+.socials {
+  margin-top: 1rem;
+}
+
+.socials a {
+  margin: 0 0.5rem;
+  color: #555;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.socials a:hover {
+  color: #b88900; /* brand accent color */
+}
+
+
+.navbar {
+  .navbar {
+  background-color: white;
+}
+
+}
+.nav-links li a {
+  color: white;
+}
+
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.nav-center a {
+  color: #222; /* or use white if your navbar is dark */
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-center a:hover {
+  color: #b88900; /* accent color on hover */
+}
+
+.nav-links li a:hover {
+  color: #b88900;
+}
+
+.nav-search {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-search input {
+  padding: 0.4rem 0.7rem;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+  background: 
+    linear-gradient(to right, rgba(245, 243, 239, 0.5), rgba(224, 220, 214, 0.5)),
+    url("C:\Users\aanya singhal\Downloads\large-ecommerce-site\public\assets\bg.jpg") center/cover no-repeat;
+  padding: 6rem 1rem 5rem;
+  text-align: center;
+  color: #1f1f1f;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-hero {
+  background: linear-gradient(to right, #c89b3c, #8a6600);
+  color: white;
+  padding: 0.9rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.btn-hero:hover {
+  background: linear-gradient(to right, #a97e24, #6f4d00);
+  transform: scale(1.05);
+}
+
+
+/* Section Titles */
+.section-title {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Category Section */
+.category {
+  margin: 2rem auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+.category-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #0c1c2c;
+  border-bottom: 2px solid #d4af37;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+
+/* Products Grid */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Product Cards */
+.product-card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  transform: translateY(-4px);
+}
+
+.product-img {
+  width: 100%;
+  height: 180px;
+  background: linear-gradient(to right, #ddb892, #b08d57);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  
+}
+
+.product-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 0.5rem;
+}
+
+.product-buttons button {
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.btn-cart {
+  background-color: #0c1c2c;
+  color: white;
+}
+
+.btn-cart:hover {
+  background-color: #1f354d;
+}
+
+.btn-details {
+  background-color: white;
+  border: 1px solid #0c1c2c;
+  color: #0c1c2c;
+}
+
+.btn-details:hover {
+  background-color: #0c1c2c;
+  color: white;
+}
+
+/* Price */
+.price {
+  font-size: 1.2rem;
+  color: #b88900;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+}
+
+/* Footer */
+footer {
+  background:rgb(205, 194, 194);
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+footer .socials a {
+  color: white;
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+#cart-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
+  width: 300px;
+  height: 100%;
+  background: #fff;
+  box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+  z-index: 1001;
+  transition: transform 0.3s ease;
+  padding: 1rem;
+}
+#cart-panel.open {
+  transform: translateX(0%);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.btn-shop {
+  display: inline-block;
+  padding: 12px 28px;
+  background: linear-gradient(90deg, #b07b5f, #d3aa7a);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.btn-shop:hover {
+  background: linear-gradient(90deg, #d3aa7a, #b07b5f);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+#details-modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 2000;
+}
+
+#modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  position: relative;
+}
+
+#modal-content img {
+  width: 100%; height: auto;
+  margin-bottom: 1rem;
+}
+
+#close-modal {
+  position: absolute;
+  top: 10px; right: 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.explore-title {
+  font-size: 2.2rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: #2a2a2a;
+  text-align: center;
+  margin: 3rem 0 2rem;
+  position: relative;
+}
+
+.explore-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #b88e2f; /* Gold accent */
+  margin: 1rem auto 0;
+  border-radius: 2px;
+}
+.explore-title {
+  font-size: 2.2rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: #2a2a2a;
+  text-align: center;
+  margin: 3rem 0 2rem;
+  position: relative;
+}
+
+.explore-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #b88e2f; /* Gold accent */
+  margin: 1rem auto 0;
+  border-radius: 2px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-left img {
+  height: 40px;
+}
+
+.navbar-center {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar-center a {
+  text-decoration: none;
+  color: #1f1f1f;
+  font-size: 1rem;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar-center a:hover {
+  color: #b88e2f;
+}
+
+.navbar-center a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #b88e2f;
+  transition: width 0.3s ease;
+}
+
+.navbar-center a:hover::after {
+  width: 100%;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 4px 12px;
+  background-color: #f9f9f9;
+}
+
+.search-form input {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 6px;
+  font-size: 0.9rem;
+  width: 150px;
+}
+
+.search-form button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #333;
+}
+
+#contact {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#contact p {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+

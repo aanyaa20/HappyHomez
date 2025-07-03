@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/HappyHomez/static/css/main.05a1de52.css",
+    "main.js": "/HappyHomez/static/js/main.ba051963.js",
+    "static/media/bg.jpg": "/HappyHomez/static/media/bg.115d4914256c858db80a.jpg",
+    "index.html": "/HappyHomez/index.html",
+    "main.05a1de52.css.map": "/HappyHomez/static/css/main.05a1de52.css.map",
+    "main.ba051963.js.map": "/HappyHomez/static/js/main.ba051963.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05a1de52.css",
+    "static/js/main.ba051963.js"
+  ]
+}
